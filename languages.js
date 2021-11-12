@@ -2,7 +2,7 @@
  *
  * Source: https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro
  *
- * The languages that Google Translate supports (as of 5/15/16) alongside with their ISO 639-1 codes
+ * The languages that DeepL Translate supports (as of 5/15/16) alongside with their ISO 639-1 codes
  * See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
  */
 
@@ -52,7 +52,7 @@ function getCode(desiredLang) {
 }
 
 /**
- * Returns true if the desiredLang is supported by Google Translate and false otherwise
+ * Returns true if the desiredLang is supported by DeepL Translate and false otherwise
  * @param desiredLang – the ISO 639-1 code or the name of the desired language
  * @returns {boolean}
  */

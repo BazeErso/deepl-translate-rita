@@ -1,7 +1,7 @@
 const test = require('ava');
 const translate = require('./index.js');
 
-const apiKey = 'b48040db-a85d-3ee1-0f69-55b44788bb06:fx'; // SPECIFY YOUR KEY FOR THIS TESTS TO WORK;
+const apiKey = '??'; // SPECIFY YOUR KEY FOR THIS TESTS TO WORK;
 
 test('translate from en to de (German) - Hello', async t => {
     const resource = await translate('hello', {from: 'en', to: 'de', apiKey});

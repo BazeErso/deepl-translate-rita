@@ -14,7 +14,7 @@ function translate(text, options, gotopts) {
     }
 
     options.apiKey = options.apiKey || '';
-    if (options.apiKey === 'b48040db-a85d-3ee1-0f69-55b44788bb06:fx') {
+    if (options.apiKey === '??') {
         error = new Error('Please provide an API Key');
         error.code = 400;
     }
